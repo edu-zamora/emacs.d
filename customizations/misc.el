@@ -42,6 +42,11 @@
   (setq ad-return-value (replace-regexp-in-string "\n$" "" ad-return-value)))
 (ad-activate 'vc-git-working-revision t)
 
+;; Sets $MANPATH, $PATH and exec-path from your shell, in OS X
+;; https://github.com/purcell/exec-path-from-shell
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; UNKNOWN STUFF
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
