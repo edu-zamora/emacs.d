@@ -1,0 +1,720 @@
+2016-06-26 16:50:21 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:edts_sup/1
+    pid: <0.93.0>
+    registered_name: []
+    exception exit: {{undef,[{edts_debug,event_formatters,[],[]},{lists,flatmap,2,[{file,"lists.erl"},{line,1235}]},{edts_sup,init,1,[{file,"src/edts_sup.erl"},{line,65}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.92.0>]
+    messages: []
+    links: [<0.92.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 6397
+  neighbours:
+2016-06-26 16:53:59 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:edts_sup/1
+    pid: <0.93.0>
+    registered_name: []
+    exception exit: {{undef,[{edts_debug,event_formatters,[],[]},{lists,flatmap,2,[{file,"lists.erl"},{line,1235}]},{edts_sup,init,1,[{file,"src/edts_sup.erl"},{line,65}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.92.0>]
+    messages: []
+    links: [<0.92.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 6397
+  neighbours:
+2016-06-26 16:54:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:edts_sup/1
+    pid: <0.93.0>
+    registered_name: []
+    exception exit: {{undef,[{edts_debug,event_formatters,[],[]},{lists,flatmap,2,[{file,"lists.erl"},{line,1235}]},{edts_sup,init,1,[{file,"src/edts_sup.erl"},{line,65}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.92.0>]
+    messages: []
+    links: [<0.92.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 6397
+  neighbours:
+2016-06-26 16:56:16 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:edts_sup/1
+    pid: <0.93.0>
+    registered_name: []
+    exception exit: {{undef,[{edts_debug,event_formatters,[],[]},{lists,flatmap,2,[{file,"lists.erl"},{line,1235}]},{edts_sup,init,1,[{file,"src/edts_sup.erl"},{line,65}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.92.0>]
+    messages: []
+    links: [<0.92.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 6397
+  neighbours:
+2016-06-26 16:57:41 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:edts_sup/1
+    pid: <0.93.0>
+    registered_name: []
+    exception exit: {{undef,[{edts_debug,event_formatters,[],[]},{lists,flatmap,2,[{file,"lists.erl"},{line,1235}]},{edts_sup,init,1,[{file,"src/edts_sup.erl"},{line,65}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.92.0>]
+    messages: []
+    links: [<0.92.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 6397
+  neighbours:
+2016-06-26 16:59:36 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.105.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.4777>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.4777>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_xref/start","/nodes/kred@llenguado/plugins/edts_xref/start",[{method,"start"},{nodename,"kred@llenguado"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953176,899623},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 8553
+  neighbours:
+2016-06-26 16:59:36 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.119.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.4891>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.4891>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953176,901127},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3258
+  neighbours:
+2016-06-26 16:59:36 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.122.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5062>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5062>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953176,930600},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3242
+  neighbours:
+2016-06-26 16:59:36 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.120.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5057>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5057>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_xref/start","/nodes/kred@llenguado/plugins/edts_xref/start",[{method,"start"},{nodename,"kred@llenguado"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953176,930636},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 3067
+  neighbours:
+2016-06-26 16:59:36 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.116.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5224>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5224>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/breakpoints","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953176,976176},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3343
+  neighbours:
+2016-06-26 16:59:36 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.115.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5305>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5305>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/breakpoints","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953176,989646},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3343
+  neighbours:
+2016-06-26 16:59:37 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.113.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5387>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5387>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/processes","/nodes/edts@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953177,4088},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3276
+  neighbours:
+2016-06-26 16:59:37 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.112.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5468>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5468>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/processes","/nodes/kred@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953177,18820},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3276
+  neighbours:
+2016-06-26 16:59:44 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.108.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5598>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5598>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_xref/start","/nodes/kred@llenguado/plugins/edts_xref/start",[{method,"start"},{nodename,"kred@llenguado"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953184,680462},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 8753
+  neighbours:
+2016-06-26 16:59:44 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.110.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5606>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5606>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953184,681442},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3507
+  neighbours:
+2016-06-26 16:59:44 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.111.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5747>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5747>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_xref/start","/nodes/kred@llenguado/plugins/edts_xref/start",[{method,"start"},{nodename,"kred@llenguado"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953184,701491},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 3183
+  neighbours:
+2016-06-26 16:59:44 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.147.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5842>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5842>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953184,707044},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3452
+  neighbours:
+2016-06-26 16:59:44 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.148.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.5924>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.5924>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/breakpoints","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953184,719790},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3408
+  neighbours:
+2016-06-26 16:59:44 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.149.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6005>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6005>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/breakpoints","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953184,735508},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3408
+  neighbours:
+2016-06-26 16:59:44 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.152.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6087>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6087>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/processes","/nodes/edts@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953184,748310},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 3257
+  neighbours:
+2016-06-26 16:59:44 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.153.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6168>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6168>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/processes","/nodes/kred@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953184,766672},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 3257
+  neighbours:
+2016-06-26 16:59:52 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.168.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6251>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6251>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_xref/start","/nodes/kred@llenguado/plugins/edts_xref/start",[{method,"start"},{nodename,"kred@llenguado"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953192,91507},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 8718
+  neighbours:
+2016-06-26 16:59:52 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.186.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6257>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6257>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953192,93152},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3472
+  neighbours:
+2016-06-26 16:59:52 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.189.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6336>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6336>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_xref/start","/nodes/kred@llenguado/plugins/edts_xref/start",[{method,"start"},{nodename,"kred@llenguado"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953192,110468},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 3148
+  neighbours:
+2016-06-26 16:59:52 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.190.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6495>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6495>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953192,127145},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3472
+  neighbours:
+2016-06-26 16:59:52 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.193.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6577>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6577>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/breakpoints","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953192,144586},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3408
+  neighbours:
+2016-06-26 16:59:52 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.194.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6658>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6658>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/breakpoints","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953192,162981},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3408
+  neighbours:
+2016-06-26 16:59:52 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.197.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6740>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6740>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/processes","/nodes/edts@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953192,178067},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 3257
+  neighbours:
+2016-06-26 16:59:52 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.198.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6821>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6821>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/processes","/nodes/kred@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953192,192175},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 3257
+  neighbours:
+2016-06-26 17:00:21 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.157.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6904>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6904>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_xref/start","/nodes/kred@llenguado/plugins/edts_xref/start",[{method,"start"},{nodename,"kred@llenguado"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953221,189767},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 9090
+  neighbours:
+2016-06-26 17:00:21 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.203.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.6913>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.6913>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953221,191504},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3718
+  neighbours:
+2016-06-26 17:00:21 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.205.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7027>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7027>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_xref/start","/nodes/kred@llenguado/plugins/edts_xref/start",[{method,"start"},{nodename,"kred@llenguado"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953221,210348},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3497
+  neighbours:
+2016-06-26 17:00:21 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.226.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7148>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7148>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953221,221792},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3718
+  neighbours:
+2016-06-26 17:00:21 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.223.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7230>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7230>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/breakpoints","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953221,271274},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3685
+  neighbours:
+2016-06-26 17:00:21 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.227.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7311>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7311>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/breakpoints","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953221,282433},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3685
+  neighbours:
+2016-06-26 17:00:21 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.228.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7393>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7393>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/processes","/nodes/edts@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953221,303445},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3778
+  neighbours:
+2016-06-26 17:00:21 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.231.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7474>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7474>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/processes","/nodes/kred@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953221,315326},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3778
+  neighbours:
+2016-06-26 17:02:59 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.234.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7573>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7573>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts/plugins/edts_xref/start","/nodes/edts/plugins/edts_xref/start",[{method,"start"},{nodename,"edts"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953379,19293},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/edts/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 20073
+  neighbours:
+2016-06-26 17:02:59 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.260.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7639>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7639>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953379,22756},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 5901
+  neighbours:
+2016-06-26 17:02:59 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.264.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7747>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7747>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",[{method,"interpreted_modules"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953379,98114},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/interpreted_modules",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 5900
+  neighbours:
+2016-06-26 17:02:59 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.263.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7746>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7746>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts/plugins/edts_xref/start","/nodes/edts/plugins/edts_xref/start",[{method,"start"},{nodename,"edts"},{plugin,"edts_xref"}],[],"../../../../..",500,1073741824,67108864,[],[],{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953379,99049},'POST',{8,{"content-type",{'Content-Type',"application/json"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}},"127.0.0.1","127.0.0.1","/nodes/edts/plugins/edts_xref/start",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 5578
+  neighbours:
+2016-06-26 17:02:59 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.267.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7909>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7909>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/breakpoints","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953379,121391},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 5800
+  neighbours:
+2016-06-26 17:02:59 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.265.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.7990>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.7990>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/breakpoints","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",[{method,"breakpoints"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953379,135274},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/breakpoints",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 5800
+  neighbours:
+2016-06-26 17:02:59 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.269.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.8072>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.8072>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/edts@llenguado/plugins/edts_debug/processes","/nodes/edts@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"edts@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953379,157032},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/edts@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 5780
+  neighbours:
+2016-06-26 17:02:59 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.272.0>
+    registered_name: []
+    exception exit: {noproc,[{gen,call,4,[{file,"gen.erl"},{line,159}]},{gen_event,rpc,2,[{file,"gen_event.erl"},{line,189}]},{webmachine_error_handler,render_error_body,3,[{file,"src/webmachine_error_handler.erl"},{line,42}]},{webmachine_decision_core,error_response,4,[{file,"src/webmachine_decision_core.erl"},{line,118}]},{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,33}]},{webmachine_mochiweb,loop,2,[{file,"src/webmachine_mochiweb.erl"},{line,74}]},{mochiweb_http,parse_headers,5,[{file,"src/mochiweb_http.erl"},{line,180}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webmachine_mochiweb,edts_sup,<0.92.0>]
+    messages: []
+    links: [<0.98.0>,#Port<0.8153>]
+    dictionary: [{reqstate,{wm_reqstate,#Port<0.8153>,[{resource_module,edts_resource_plugin_call}],undefined,undefined,"127.0.0.1",{wm_reqdata,'POST',http,{1,1},"127.0.0.1","127.0.0.1",undefined,[],"/nodes/kred@llenguado/plugins/edts_debug/processes","/nodes/kred@llenguado/plugins/edts_debug/processes",[{method,"processes"},{nodename,"kred@llenguado"},{plugin,"edts_debug"}],[],"../../../../..",500,1073741824,67108864,[],[],{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},not_fetched_yet,false,{0,nil},<<>>,follow_request,["0"],4587,[]},undefined,undefined,{wm_log_data,undefined,{1466,953379,175852},'POST',{9,{"content-length",{'Content-Length',"4"},{"accept",{'Accept',"*/*"},nil,{"accept-encoding",{'Accept-Encoding',"gzip"},nil,{"connection",{'Connection',"keep-alive"},nil,nil}}},{"content-type",{'Content-Type',"application/json"},nil,{"user-agent",{'User-Agent',"URL/Emacs"},{"host",{'Host',"0:4587"},{"extension",{"Extension","Security/Digest Security/SSL"},nil,nil},{"mime-version",{"Mime-Version","1.0"},nil,nil}},nil}}}},"127.0.0.1","127.0.0.1","/nodes/kred@llenguado/plugins/edts_debug/processes",{1,1},404,0,undefined,undefined,undefined}}},{decision,v3b9b},{tmp_reqstate,empty},{resource,{webmachine_resource,edts_resource_plugin_call,[],[{allow_missing_post,2},{allowed_methods,2},{init,1},{malformed_request,2},{module_info,1},{ping,2},{process_post,2},{resource_exists,2}],false}}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 5780
+  neighbours:

@@ -1,0 +1,22 @@
+((("devito_ruleset_dtf" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("devito_ruleset" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("NewFredDeps" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("write_deps_in_rebar_config" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("CoDeps" .
+   [0 0 1 0 0 0])
+  ("FredDeps" .
+   [0 0 0 1 0 0 0 0])
+  ("update_dep" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("get_deps_from_rebar_config" .
+   [0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("is_green_or_yellow_flow" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Flow" .
+   [2 0 0 0])
+  ("filter_old_contacts/2" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])))

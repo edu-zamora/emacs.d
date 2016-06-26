@@ -1,0 +1,1 @@
+/home/ezamora/.emacs##Linux
