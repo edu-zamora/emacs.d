@@ -38,7 +38,6 @@
 ;; Add in your own as you wish:
 ;; To try:
 ;; - https://github.com/joaotavora/yasnippet
-;; - https://github.com/areina/helm-dash
 (defvar my-packages
   '(;; makes handling lisp expressions much, much easier
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
@@ -63,6 +62,18 @@
 
     ;; git integration
     magit
+
+    ;; incremental completion and selection narrowing framework
+    ;; https://github.com/emacs-helm/helm
+    helm
+
+    ;; Use Dash docsets (documentation) in Emacs
+    ;; https://github.com/areina/helm-dash
+    ;; http://jwintz.me/blog/2014/02/16/helm-dash-makes-you-efficient/
+    helm-dash
+
+    ;; interface to the w3m text based browser
+    w3m
 
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
@@ -145,3 +156,4 @@
 (load "setup-org.el")
 ;(load "setup-dmacro.el")
 (load "setup-column-marker.el")
+(load "setup-w3m.el")
