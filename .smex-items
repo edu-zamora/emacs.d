@@ -1,8 +1,8 @@
 
 ;; ----- smex-history -----
 (
- typing-of-emacs
  package-list-packages
+ typing-of-emacs
  rgrep
  cider-jack-in
  goto-line
@@ -17,5 +17,5 @@
  (cider-jack-in . 1)
  (rgrep . 1)
  (typing-of-emacs . 2)
- (package-list-packages . 1)
+ (package-list-packages . 2)
 )

@@ -79,6 +79,10 @@
     ;; http://jblevins.org/projects/markdown-mode/
     markdown-mode
 
+    ;; inserts an org-mode link with title of page
+    ;; https://github.com/rexim/org-cliplink
+    org-cliplink
+
     ;; Typing game inspired in The House of the Dead
     ;; https://www.emacswiki.org/emacs/TypingOfEmacs
     typing
