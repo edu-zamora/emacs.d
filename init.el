@@ -130,6 +130,9 @@
 ;; Customization
 ;;;;
 
+;; Are we on a mac?
+(setq is-mac (equal system-type 'darwin))
+
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
 (add-to-list 'load-path "~/.emacs.d/customizations")
@@ -137,6 +140,10 @@
 ;; These customizations change the key bindings associated to certain
 ;; commands
 (load "key-bindings.el")
+
+;; Specific customizations for osx
+(when is-mac
+  (load "osx.el"))
 
 ;; These customizations make it easier for you to navigate files,
 ;; switch buffers, and choose options from the minibuffer.
