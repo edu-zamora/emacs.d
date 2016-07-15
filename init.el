@@ -38,6 +38,7 @@
 ;; Add in your own as you wish:
 ;; To try:
 ;; - https://github.com/joaotavora/yasnippet
+;; - https://github.com/justbur/emacs-which-key
 (defvar my-packages
   '(;; makes handling lisp expressions much, much easier
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
