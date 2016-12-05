@@ -1,7 +1,7 @@
-.recentf*
-ido.last*
-url
-auto-save-list
-.smex-items
 *~
-elpa/
+elpa
+auto-save-list
+.recentf
+recentf
+ido.last
+.smex-items
