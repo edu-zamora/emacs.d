@@ -311,6 +311,11 @@
   :ensure t
   :defer t)
 
+;; On the fly markdown preview
+(use-package flymd
+  :ensure t
+  :defer t)
+
 (use-package yaml-mode
   :ensure t
   :defer t)
