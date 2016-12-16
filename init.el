@@ -307,6 +307,22 @@
   :ensure t
   :defer t)
 
+(use-package erlang
+  :ensure t)
+
+;; Erlang Development Tool Suite
+;; https://github.com/tjarvstrand/edts
+;; The installation from melpa does not fully work by itself.
+;; After it is downloaded, go to edts' folder (under .emacs.d/elpa/)
+;; and manually run `make`.
+;; This package is also to blame for the next warning on startup:
+;; "Package iswitchb is obsolete"
+(use-package edts
+  :ensure t
+  :pin "MELPA"
+  :config
+  (add-hook 'after-init-hook (lambda () (require 'edts-start))))
+
 (use-package markdown-mode
   :ensure t
   :defer t)
