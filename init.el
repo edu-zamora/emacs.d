@@ -69,6 +69,9 @@
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 
+;; No tabs: https://www.emacswiki.org/emacs/NoTabs
+(setq-default indent-tabs-mode nil)
+
 ;; Fix tilde dead key issue: https://www.emacswiki.org/emacs/DeadKeys
 (require 'iso-transl)
 
@@ -248,7 +251,7 @@
   (setq org-log-done t)
   ;; Sets files to search for TODOs
   (setq org-agenda-files (list "~/Dropbox/org"
-                                        "~/Dropbox/org/projects"))
+                               "~/Dropbox/org/projects"))
   (setq org-agenda-custom-commands
                  '(("P" "Project List" ((tags "PROJECT")))))
   ;; Don't show things that are DONE
@@ -290,7 +293,17 @@
 ;; Clojure Interactive Development Environment
 (use-package cider
   :ensure t
-  :defer t)
+  :defer t
+  :bind (("C-c n" . cider-format-buffer)))
+
+;; NOT FULLY WORKING
+;; Refactoring support for Clojure projects
+;; https://github.com/clojure-emacs/clj-refactor.el
+(use-package clj-refactor
+  :ensure t
+  :bind (("C-c C-m" . cljr-add-keybindings-with-prefix))
+  :config
+  (clj-refactor-mode 1))
 
 ;; Perform structured editing of S-expression data
 (use-package paredit
@@ -333,6 +346,10 @@
   :defer t)
 
 (use-package yaml-mode
+  :ensure t
+  :defer t)
+
+(use-package coffee-mode
   :ensure t
   :defer t)
 
