@@ -282,6 +282,10 @@
   :ensure t
   :bind (("C-x g" . magit-status)))
 
+(use-package restclient
+  :ensure t
+  :defer t)
+
 (use-package clojure-mode
   :ensure t
   :defer t
