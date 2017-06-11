@@ -106,6 +106,10 @@
 ;; Replace buffer-menu with ibuffer
 (global-set-key (kbd "C-x C-b") #'ibuffer)
 
+;; Open links in Chrome
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "gnome-open")
+
 ;;; Packages
 
 (use-package validate ; Validate options (using validate-setq)
