@@ -72,11 +72,6 @@
 ;; Fix tilde dead key issue: https://www.emacswiki.org/emacs/DeadKeys
 (require 'iso-transl)
 
-;; Fix ctrl-left and ctrl-right in Mac
-(when (equal system-type 'darwin)
-  (setq mac-option-key-is-meta t)
-  (setq mac-right-option-modifier nil))
-
 ;; Store all backup and autosave files in the tmp dir
 (setq backup-directory-alist
       `((".*" . ,temporary-file-directory)))
@@ -102,6 +97,14 @@
 
 ;; Replace buffer-menu with ibuffer
 (global-set-key (kbd "C-x C-b") #'ibuffer)
+
+;; Specific Mac OS X config
+(when (equal system-type 'darwin)
+  ;; Fix ctrl-left and ctrl-right
+  (setq mac-option-key-is-meta t)
+  (setq mac-right-option-modifier nil)
+  ;; Open urls with the default browser
+  (setq browse-url-browser-function 'browse-url-default-macosx-browser))
 
 ;;; Packages
 
