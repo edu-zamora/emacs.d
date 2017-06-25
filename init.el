@@ -69,6 +69,9 @@
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 
+;; No tabs: https://www.emacswiki.org/emacs/NoTabs
+(setq-default indent-tabs-mode nil)
+
 ;; Fix tilde dead key issue: https://www.emacswiki.org/emacs/DeadKeys
 (require 'iso-transl)
 
@@ -97,6 +100,10 @@
 
 ;; Replace buffer-menu with ibuffer
 (global-set-key (kbd "C-x C-b") #'ibuffer)
+
+;; Open links in Chrome
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "gnome-open")
 
 ;; Specific Mac OS X config
 (when (equal system-type 'darwin)
@@ -251,7 +258,7 @@
   (setq org-log-done t)
   ;; Sets files to search for TODOs
   (setq org-agenda-files (list "~/Dropbox/org"
-                                        "~/Dropbox/org/projects"))
+                               "~/Dropbox/org/projects"))
   (setq org-agenda-custom-commands
                  '(("P" "Project List" ((tags "PROJECT")))))
   ;; Don't show things that are DONE
@@ -282,6 +289,10 @@
   :ensure t
   :bind (("C-x g" . magit-status)))
 
+(use-package restclient
+  :ensure t
+  :defer t)
+
 (use-package clojure-mode
   :ensure t
   :defer t
@@ -293,7 +304,17 @@
 ;; Clojure Interactive Development Environment
 (use-package cider
   :ensure t
-  :defer t)
+  :defer t
+  :bind (("C-c n" . cider-format-buffer)))
+
+;; NOT FULLY WORKING
+;; Refactoring support for Clojure projects
+;; https://github.com/clojure-emacs/clj-refactor.el
+(use-package clj-refactor
+  :ensure t
+  :bind (("C-c C-m" . cljr-add-keybindings-with-prefix))
+  :config
+  (clj-refactor-mode 1))
 
 ;; Perform structured editing of S-expression data
 (use-package paredit
@@ -310,11 +331,36 @@
   :ensure t
   :defer t)
 
+(use-package erlang
+  :ensure t)
+
+;; Erlang Development Tool Suite
+;; https://github.com/tjarvstrand/edts
+;; The installation from melpa does not fully work by itself.
+;; After it is downloaded, go to edts' folder (under .emacs.d/elpa/)
+;; and manually run `make`.
+;; This package is also to blame for the next warning on startup:
+;; "Package iswitchb is obsolete"
+(use-package edts
+  :ensure t
+  :pin "MELPA"
+  :config
+  (add-hook 'after-init-hook (lambda () (require 'edts-start))))
+
 (use-package markdown-mode
   :ensure t
   :defer t)
 
+;; On the fly markdown preview
+(use-package flymd
+  :ensure t
+  :defer t)
+
 (use-package yaml-mode
+  :ensure t
+  :defer t)
+
+(use-package coffee-mode
   :ensure t
   :defer t)
 
