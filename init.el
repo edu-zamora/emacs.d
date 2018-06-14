@@ -356,11 +356,26 @@
   :ensure t
   :defer t)
 
+;; For fly markdown, use a browser that works by default
+;; https://github.com/mola-T/flymd/blob/master/browser.md
+(defun my-flymd-browser-function (url)
+  (let ((process-environment (browse-url-process-environment)))
+    (apply 'start-process
+           (concat "firefox " url)
+           nil
+           "/usr/bin/open"
+           (list "-a" "firefox" url))))
+(setq flymd-browser-open-function 'my-flymd-browser-function)
+
 (use-package yaml-mode
   :ensure t
   :defer t)
 
 (use-package coffee-mode
+  :ensure t
+  :defer t)
+
+(use-package groovy-mode
   :ensure t
   :defer t)
 
