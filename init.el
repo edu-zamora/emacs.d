@@ -37,6 +37,9 @@
 ;; Please don't load outdated byte code
 (setq load-prefer-newer t)
 
+;; https://stackoverflow.com/a/57172081/222900
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
+
 (require 'package)
 (setq package-enable-at-startup nil)
 (setq package-archives
@@ -114,6 +117,9 @@
   (setq browse-url-browser-function 'browse-url-default-macosx-browser))
 
 ;;; Packages
+
+(use-package gnu-elpa-keyring-update ; https://elpa.gnu.org/packages/gnu-elpa-keyring-update.html
+  :ensure t)
 
 (use-package validate ; Validate options (using validate-setq)
   :ensure t)
@@ -341,11 +347,11 @@
 ;; and manually run `make`.
 ;; This package is also to blame for the next warning on startup:
 ;; "Package iswitchb is obsolete"
-(use-package edts
-  :ensure t
-  :pin "MELPA"
-  :config
-  (add-hook 'after-init-hook (lambda () (require 'edts-start))))
+;(use-package edts
+;  :ensure t
+;  :pin "MELPA"
+;  :config
+;  (add-hook 'after-init-hook (lambda () (require 'edts-start))))
 
 (use-package markdown-mode
   :ensure t
@@ -384,7 +390,20 @@
 ;; Clear the variable again
 (makunbound 'ez-default-gc-cons-threshold)
 
-;; Local Variables:
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(groovy-mode coffee-mode yaml-mode flymd markdown-mode edts erlang rainbow-delimiters paredit clj-refactor cider clojure-mode restclient magit org-cliplink yasnippet company which-key smex exec-path-from-shell color-theme-sanityinc-tomorrow validate use-package)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+ ;; Local Variables:
 ;; coding: utf-8
 ;; indent-tabs-mode: nil
 ;; End:
